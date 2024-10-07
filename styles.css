@@ -1,0 +1,89 @@
+body {
+    background-color: #EEEEEE;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "slnt" 0;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #DDDDDD;
+}
+
+.cv-div,
+.social-link-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+.cv-div p {
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.cv-div .cv-button {
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cv-div .copy-button,
+.skill-button {
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 12px;
+}
+
+.social-link-div p {
+    margin-top: 12px;
+}
+
+.header-div {
+    background-color: #DDDDDD;
+    padding: 5% 30px 10% 30px;
+    border-radius: 0 0 80px 80px;
+    text-align: center;
+
+}
+
+.header-div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.header-div h2,
+.header-div h4 {
+    margin-bottom: 20px;
+}
+
+.skill-div {
+    background-color: #EEEEEE;
+    padding: 6% 70px;
+    border-radius: 0 0 80px 80px;
+    text-align: center;
+}
+
+.skill2-div {
+    background-color: #DDDDDD;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"> */
